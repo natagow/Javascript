@@ -10,7 +10,7 @@ var objet = prompt ("Avez-vous un ordinateur ? (oui / non)");
     else if (nombr == 2) {
       document.write ("Comme moi !");
     }
-    else if (nombr < 2) {
+    else if (nombr > 2) {
       document.write ("C'est énorme..");
     }
     else {
