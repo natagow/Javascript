@@ -1,9 +1,6 @@
 var objet = prompt ("Avez-vous un ordinateur ? (oui / non)");
   if (objet === "oui") {
-
-
     var nombr = prompt ("Combien en avez-vous ?");
-
     if (nombr == 0) {
       document.write ("Oh dommage, c'est utile pourtant..");
     }
@@ -20,7 +17,7 @@ var objet = prompt ("Avez-vous un ordinateur ? (oui / non)");
       document.write ("Je te demande juste combien, c'est pas un chiffre ça..");
     }
   } else if (objet === "non") {
-    document.write ("Dommage, overwatch c'est cool pourtant..")
+    document.write ("Dommage, overwatch c'est cool pourtant..");
   } else {
-    document.write ("Calme toi gérard")
+    document.write ("Calme toi gérard");
   }
