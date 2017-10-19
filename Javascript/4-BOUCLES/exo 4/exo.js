@@ -1,5 +1,5 @@
-var star = "";
-for (i = 0; i<5; i++){
-  star += "*";
-  console.log(star);
+var puce = "";
+for (i = 0; i<6; i++){
+  puce += "*";
+  console.log(puce);
 }
